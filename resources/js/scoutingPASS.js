@@ -456,18 +456,14 @@ function getRobot() {
 }
 
 function validateRobot() {
-  if (
+  return (
     document.getElementById("input_r_r1").checked ||
     document.getElementById("input_r_r2").checked ||
     document.getElementById("input_r_r3").checked ||
     document.getElementById("input_r_b1").checked ||
     document.getElementById("input_r_b2").checked ||
     document.getElementById("input_r_b3").checked
-  ) {
-    return true;
-  } else {
-    return false;
-  }
+  );
 }
 
 function resetRobot() {
@@ -508,17 +504,13 @@ function getLevel() {
 }
 
 function validateLevel() {
-  if (
+  return (
     document.getElementById("input_l_qm").checked ||
     document.getElementById("input_l_ef").checked ||
     document.getElementById("input_l_qf").checked ||
     document.getElementById("input_l_sf").checked ||
     document.getElementById("input_l_f").checked
-  ) {
-    return true;
-  } else {
-    return false;
-  }
+  );
 }
 
 function validateData() {

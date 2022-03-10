@@ -15,6 +15,8 @@ var config_data = `
         "code":"e",
         "type":"event",
         "defaultValue":"2022zhha",
+        "size":9,
+        "maxSize":9,
         "required":"true",
         "disabled":"true"
       },
@@ -140,20 +142,6 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "If climb failed,<br>Last successful rung,<br>if any": {
-        "code":"lsr",
-        "title": "If climb failed,<br>last successful rung,<br>if any",
-        "type":"radio",
-        "choices":{
-          "1":"Low<br>",
-          "2":"Mid<br>",
-          "3":"High<br>",
-          "4":"Traversal<br>",
-          "n":"No successful rung<br>",
-          "x":"n/a"
-        },
-        "defaultValue":"x"
-      },
       "Started Climb before Endgame": {
         "code":"be",
         "title": "Started climb before EndGame",
@@ -216,18 +204,7 @@ var config_data = `
         "type":"text",
         "size":15,
         "maxSize":50
-      },
-      "Confidence Rating": {
-        "code":"cnf",
-        "title": "Confidence Rating",
-        "type":"radio",
-        "choices":{
-          "v":"Very Confident<br>",
-          "a":"Average<br>",
-          "n":"Not Confident"
-      },
-       "defaultValue":"a"
-    }
+      }
     }
   }
 }`;
