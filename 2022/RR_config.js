@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022zhhb",
+        "defaultValue":"2022zhha",
         "size":9,
         "maxSize":9,
         "required":"true",
