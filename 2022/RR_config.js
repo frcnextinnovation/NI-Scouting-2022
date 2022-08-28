@@ -108,9 +108,9 @@ var config_data = `
         "title": "Wallbot?",
         "type":"bool"
       },
-      "Cargo Intake From": {
-        "code":"cif",
-        "title": "Cargo Intake From",
+      "Human Station Type": {
+        "code":"hif",
+        "title": "Human Station Type",
         "type":"radio",
         "choices":{
           "t":"Terminal<br>",
